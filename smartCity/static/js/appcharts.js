@@ -85,18 +85,22 @@ function radra_1(request) {
                     lineStyle: {
                         width: 1
                     },
-                    itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                    itemStyle: {
+                        normal: {
+                            areaStyle: {
+                                type: 'default'
+                            }
+                        }
+                    },
                     // emphasis: {
                     //     areaStyle: {
                     //         color: 'rgba(0,250,0,0.3)'
                     //     }
                     // },
-                    data: [
-                        {
-                            value: _data_[i - 1].value,
-                            name: _data_[i - 1].name + ''
-                        }
-                    ]
+                    data: [{
+                        value: _data_[i - 1].value,
+                        name: _data_[i - 1].name + ''
+                    }]
                 });
             }
             return series;
@@ -126,43 +130,41 @@ function tree_1(request) {
                 trigger: 'item',
                 triggerOn: 'mousemove'
             },
-            series: [
-                {
-                    type: 'tree',
+            series: [{
+                type: 'tree',
 
-                    data: [data],
+                data: [data],
 
-                    top: '1%',
-                    left: '7%',
-                    bottom: '1%',
-                    right: '20%',
+                top: '1%',
+                left: '7%',
+                bottom: '1%',
+                right: '20%',
 
-                    symbolSize: 10,
+                symbolSize: 10,
 
+                label: {
+                    normal: {
+                        position: 'left',
+                        verticalAlign: 'middle',
+                        align: 'right',
+                        fontSize: 12
+                    }
+                },
+
+                leaves: {
                     label: {
                         normal: {
-                            position: 'left',
+                            position: 'right',
                             verticalAlign: 'middle',
-                            align: 'right',
-                            fontSize: 12
+                            align: 'left'
                         }
-                    },
+                    }
+                },
 
-                    leaves: {
-                        label: {
-                            normal: {
-                                position: 'right',
-                                verticalAlign: 'middle',
-                                align: 'left'
-                            }
-                        }
-                    },
-
-                    expandAndCollapse: true,
-                    animationDuration: 550,
-                    animationDurationUpdate: 750
-                }
-            ]
+                expandAndCollapse: true,
+                animationDuration: 550,
+                animationDurationUpdate: 750
+            }]
         });
     });
 }
@@ -267,8 +269,12 @@ function trend_1(request) {
                 dataZoom: {
                     yAxisIndex: 'none'
                 },
-                dataView: {readOnly: false},
-                magicType: {type: ['line', 'bar']},
+                dataView: {
+                    readOnly: false
+                },
+                magicType: {
+                    type: ['line', 'bar']
+                },
                 restore: {},
                 saveAsImage: {}
             }
@@ -284,15 +290,19 @@ function trend_1(request) {
                 formatter: '{value} °C'
             }
         },
-        series: [
-            {
+        series: [{
                 name: '温度',
                 type: 'line',
                 data: _data_[0].value,
                 markPoint: {
-                    data: [
-                        {type: 'max', name: '最大值'},
-                        {type: 'min', name: '最小值'}
+                    data: [{
+                            type: 'max',
+                            name: '最大值'
+                        },
+                        {
+                            type: 'min',
+                            name: '最小值'
+                        }
                     ]
                 },
                 markLine: {
@@ -311,7 +321,8 @@ function trend_1(request) {
                             },
                             type: 'max',
                             name: '最高点'
-                        }], [{
+                        }],
+                        [{
                             symbol: 'none',
                             x: '90%',
                             yAxis: 'min'
@@ -364,8 +375,12 @@ function trend_2(request) {
                 dataZoom: {
                     yAxisIndex: 'none'
                 },
-                dataView: {readOnly: false},
-                magicType: {type: ['line', 'bar']},
+                dataView: {
+                    readOnly: false
+                },
+                magicType: {
+                    type: ['line', 'bar']
+                },
                 restore: {},
                 saveAsImage: {}
             }
@@ -384,8 +399,7 @@ function trend_2(request) {
             data: _data_[0].obj,
             x: 'left'
         },
-        dataZoom: [
-            {
+        dataZoom: [{
                 show: true,
                 realtime: true,
                 start: 65,
@@ -398,18 +412,17 @@ function trend_2(request) {
                 end: 85
             }
         ],
-        xAxis: [
-            {
-                type: 'category',
-                boundaryGap: false,
-                axisLine: {onZero: false},
-                data: _data_[0].time.map(function (str) {
-                    return str.replace(' ', '\n')
-                })
-            }
-        ],
-        yAxis: [
-            {
+        xAxis: [{
+            type: 'category',
+            boundaryGap: false,
+            axisLine: {
+                onZero: false
+            },
+            data: _data_[0].time.map(function (str) {
+                return str.replace(' ', '\n')
+            })
+        }],
+        yAxis: [{
                 name: _data_[0].obj[0],
                 type: 'value',
                 max: _data_[0].max1
@@ -422,8 +435,7 @@ function trend_2(request) {
                 inverse: true
             }
         ],
-        series: [
-            {
+        series: [{
                 name: _data_[0].obj[0],
                 type: 'line',
                 animation: false,
@@ -480,8 +492,12 @@ function trend_3(request) {
                 dataZoom: {
                     yAxisIndex: 'none'
                 },
-                dataView: {readOnly: false},
-                magicType: {type: ['line', 'bar']},
+                dataView: {
+                    readOnly: false
+                },
+                magicType: {
+                    type: ['line', 'bar']
+                },
                 restore: {},
                 saveAsImage: {}
             }
@@ -512,28 +528,26 @@ function trend_3(request) {
                 shadowOffsetY: 2
             }
         }],
-        series: [
-            {
-                name: _data_[0].obj[0],
-                type: 'line',
-                smooth: true,
-                symbol: 'none',
-                sampling: 'average',
-                itemStyle: {
+        series: [{
+            name: _data_[0].obj[0],
+            type: 'line',
+            smooth: true,
+            symbol: 'none',
+            sampling: 'average',
+            itemStyle: {
+                color: 'rgb(255, 70, 131)'
+            },
+            areaStyle: {
+                color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                    offset: 0,
+                    color: 'rgb(255, 158, 68)'
+                }, {
+                    offset: 1,
                     color: 'rgb(255, 70, 131)'
-                },
-                areaStyle: {
-                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
-                        offset: 0,
-                        color: 'rgb(255, 158, 68)'
-                    }, {
-                        offset: 1,
-                        color: 'rgb(255, 70, 131)'
-                    }])
-                },
-                data: _data_[0].value1
-            }
-        ]
+                }])
+            },
+            data: _data_[0].value1
+        }]
     };
     myChart.setOption(option);
 }
@@ -619,108 +633,110 @@ function trend_5(request) {
 
 
     const option = {
-    title: {
-        text: _title_,
-        subtext: _subtitle_,
-        x: 'center'
-    },
-    tooltip: {
-        trigger: 'axis',
+        title: {
+            text: _title_,
+            subtext: _subtitle_,
+            x: 'center'
+        },
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+                animation: false
+            }
+        },
+        legend: {
+            data: _data_[0].obj,
+            x: 'left'
+        },
+        toolbox: {
+            feature: {
+                dataZoom: {
+                    yAxisIndex: 'none'
+                },
+                restore: {},
+                saveAsImage: {}
+            }
+        },
         axisPointer: {
-            animation: false
-        }
-    },
-    legend: {
-        data:_data_[0].obj,
-        x: 'left'
-    },
-    toolbox: {
-        feature: {
-            dataZoom: {
-                yAxisIndex: 'none'
+            link: {
+                xAxisIndex: 'all'
+            }
+        },
+        dataZoom: [{
+                show: true,
+                realtime: true,
+                start: 30,
+                end: 70,
+                xAxisIndex: [0, 1]
             },
-            restore: {},
-            saveAsImage: {}
-        }
-    },
-    axisPointer: {
-        link: {xAxisIndex: 'all'}
-    },
-    dataZoom: [
-        {
-            show: true,
-            realtime: true,
-            start: 30,
-            end: 70,
-            xAxisIndex: [0, 1]
-        },
-        {
-            type: 'inside',
-            realtime: true,
-            start: 30,
-            end: 70,
-            xAxisIndex: [0, 1]
-        }
-    ],
-    grid: [{
-        left: 50,
-        right: 50,
-        height: '20%'
-    }, {
-        left: 50,
-        right: 50,
-        top: '55%',
-        height: '20%'
-    }],
-    xAxis : [
-        {
-            type : 'category',
-            boundaryGap : false,
-            axisLine: {onZero: true},
-            data: _data_[0].time
-        },
-        {
-            gridIndex: 1,
-            type : 'category',
-            boundaryGap : false,
-            axisLine: {onZero: true},
-            data: _data_[0].time,
-            position: 'top'
-        }
-    ],
-    yAxis : [
-        {
-            name : _data_[0].obj[0],
-            type : 'value',
-            max : _data_[0].max1
-        },
-        {
-            gridIndex: 1,
-            name : _data_[0].obj[1],
-            type : 'value',
-            inverse: true,
-            max : _data_[0].max2
-        }
-    ],
-    series : [
-        {
-            name:_data_[0].obj[0],
-            type:'line',
-            symbolSize: 8,
-            hoverAnimation: false,
-            data:_data_[0].value1
-        },
-        {
-            name:_data_[0].obj[1],
-            type:'line',
-            xAxisIndex: 1,
-            yAxisIndex: 1,
-            symbolSize: 8,
-            hoverAnimation: false,
-            data: _data_[0].value2
-        }
-    ]
-};
+            {
+                type: 'inside',
+                realtime: true,
+                start: 30,
+                end: 70,
+                xAxisIndex: [0, 1]
+            }
+        ],
+        grid: [{
+            left: 50,
+            right: 50,
+            height: '20%'
+        }, {
+            left: 50,
+            right: 50,
+            top: '55%',
+            height: '20%'
+        }],
+        xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data: _data_[0].time
+            },
+            {
+                gridIndex: 1,
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data: _data_[0].time,
+                position: 'top'
+            }
+        ],
+        yAxis: [{
+                name: _data_[0].obj[0],
+                type: 'value',
+                max: _data_[0].max1
+            },
+            {
+                gridIndex: 1,
+                name: _data_[0].obj[1],
+                type: 'value',
+                inverse: true,
+                max: _data_[0].max2
+            }
+        ],
+        series: [{
+                name: _data_[0].obj[0],
+                type: 'line',
+                symbolSize: 8,
+                hoverAnimation: false,
+                data: _data_[0].value1
+            },
+            {
+                name: _data_[0].obj[1],
+                type: 'line',
+                xAxisIndex: 1,
+                yAxisIndex: 1,
+                symbolSize: 8,
+                hoverAnimation: false,
+                data: _data_[0].value2
+            }
+        ]
+    };
     myChart.setOption(option);
 }
 
@@ -740,19 +756,21 @@ function trend_6(request) {
     const option = {
         title: {
             text: _title_,
-        subtext: _subtitle_
+            subtext: _subtitle_
         },
         tooltip: {
             trigger: 'axis'
         },
         xAxis: {
-                type: 'category',
-                boundaryGap: false,
-                axisLine: {onZero: false},
-                data: _data_[0].time.map(function (str) {
-                    return str.replace(' ', '\n')
-                })
+            type: 'category',
+            boundaryGap: false,
+            axisLine: {
+                onZero: false
             },
+            data: _data_[0].time.map(function (str) {
+                return str.replace(' ', '\n')
+            })
+        },
         yAxis: {
             splitLine: {
                 show: false
