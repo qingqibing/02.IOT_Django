@@ -1,0 +1,2114 @@
+{
+  "name": "六沟智慧园区",
+  "value": 6,
+  "children": [
+    {
+      "name": "基础建设",
+      "value": 2,
+      "children": [
+        {
+          "name": "全光园区网",
+          "value": 5,
+          "children": [
+            {
+              "name": "无线网络Internet接入",
+              "value": 0
+            },
+            {
+              "name": "无线远程接入",
+              "value": 0
+            },
+            {
+              "name": "协同工作",
+              "value": 0
+            },
+            {
+              "name": "移动生产管理",
+              "value": 0
+            },
+            {
+              "name": "无线视频监控",
+              "value": 0
+            },
+            {
+              "name": "用户接入管理",
+              "value": 0
+            },
+            {
+              "name": "用户认证管理",
+              "value": 0
+            },
+            {
+              "name": "用户计费管理",
+              "value": 0
+            },
+            {
+              "name": "移动漫游管理",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "数据中心",
+          "children": [
+            {
+              "name": "机房建设",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "园区运营",
+      "value": "16",
+      "children": [
+        {
+          "name": "监控中心",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorI0nterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        },
+        {
+          "name": "数字化园区管理",
+          "value": 2,
+          "children": [
+            {
+              "name": "综合信息发布",
+              "value": 10,
+              "children": [
+                {
+                  "name": "园区状况",
+                  "value": 0
+                },
+                {
+                  "name": "园区展示",
+                  "value": 0
+                },
+                {
+                  "name": "新闻动态",
+                  "value": 0
+                },
+                {
+                  "name": "党建活动",
+                  "value": 0
+                },
+                {
+                  "name": "办事指南",
+                  "value": 0
+                },
+                {
+                  "name": "招商引资",
+                  "value": 0
+                },
+                {
+                  "name": "租售信息",
+                  "value": 0
+                },
+                {
+                  "name": "园区GIS地图",
+                  "value": 0
+                },
+                {
+                  "name": "园区展示",
+                  "value": 0
+                },
+                {
+                  "name": "政策文件",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "name": "数字化信息管理",
+              "value": 2047,
+              "children": [
+                {
+                  "name": "园区基本信息维护",
+                  "value": 0
+                },
+                {
+                  "name": "园区信息归档维护",
+                  "value": 0
+                },
+                {
+                  "name": "企业税收情况统计",
+                  "value": 0
+                },
+                {
+                  "name": "区域税收变化趋势",
+                  "value": 0
+                },
+                {
+                  "name": "园区信息上报及审批",
+                  "value": 0
+                },
+                {
+                  "name": "入驻企业情况",
+                  "value": 0
+                },
+                {
+                  "name": "重点企业税收统计",
+                  "value": 0
+                },
+                {
+                  "name": "入驻企业基本信息维护",
+                  "value": 0
+                },
+                {
+                  "name": "入驻企业归档维护",
+                  "value": 0
+                },
+                {
+                  "name": "企业纳税情况排名",
+                  "value": 0
+                },
+                {
+                  "name": "入驻企业信息上报及审批",
+                  "value": 0
+                },
+                {
+                  "name": "税收收入行业分类统计",
+                  "value": 0
+                },
+                {
+                  "name": "企业从业人数统计",
+                  "value": 0
+                },
+                {
+                  "name": "企业党员信息维护",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "园区智能安防",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorInterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        },
+        {
+          "name": "园区智能交通",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorInterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        },
+        {
+          "name": "园区智能停车",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorInterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        },
+        {
+          "name": "园区环境监管",
+          "value": 12,
+          "children": [
+            {
+              "name": "环境智慧数据云",
+              "value": 0
+            },
+            {
+              "name": "数据采集分析系统",
+              "value": 0
+            },
+            {
+              "name": "环境地理信息平台",
+              "value": 6,
+              "children": [
+            {
+              "name": "网格化分图",
+              "value": 0
+            },
+            {
+              "name": "污染源分布",
+              "value": 0
+            },
+            {
+              "name": "污染源定位与监测",
+              "value": 0
+            },
+            {
+              "name": "污染源污染模拟与分析",
+              "value": 0
+            },
+            {
+              "name": "污染源作用关系分析",
+              "value": 0
+            },
+            {
+              "name": "类型管理库",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "内外网功能型门户网站",
+              "value": 6,
+              "children": [
+            {
+              "name": "危险源转移管理",
+              "value": 0
+            },
+            {
+              "name": "污染源业务办理",
+              "value": 0
+            },
+            {
+              "name": "任务流管理",
+              "value": 0
+            },
+            {
+              "name": "信息发布",
+              "value": 0
+            },
+            {
+              "name": "污染企业信息维护",
+              "value": 0
+            },
+            {
+              "name": "污染情况通报",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "污染源在线监控管理系统",
+              "value": 6,
+              "children": [
+            {
+              "name": "数据资源管理",
+              "value": 0
+            },
+            {
+              "name": "GIS污染源定位",
+              "value": 0
+            },
+            {
+              "name": "影响范围分析",
+              "value": 0
+            },
+            {
+              "name": "污染源与执法人员随即配对",
+              "value": 0
+            },
+            {
+              "name": "日常监管",
+              "value": 0
+            },
+            {
+              "name": "污染源移动管理",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "环境应急指挥系统",
+              "value": 6,
+              "children": [
+            {
+              "name": "融合监控数据",
+              "value": 0
+            },
+            {
+              "name": "预警指标及应急流程",
+              "value": 0
+            },
+            {
+              "name": "指标规则管理",
+              "value": 0
+            },
+            {
+              "name": "重点源分析",
+              "value": 0
+            },
+            {
+              "name": "指挥调度",
+              "value": 0
+            },
+            {
+              "name": "响应预案",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "网格化环境监测管理系统",
+              "value": 6,
+              "children": [
+            {
+              "name": "网格化信息管理",
+              "value": 0
+            },
+            {
+              "name": "事件管理",
+              "value": 0
+            },
+            {
+              "name": "入库数据维护",
+              "value": 0
+            },
+            {
+              "name": "案件统计分析",
+              "value": 0
+            },
+            {
+              "name": "要素统计分析",
+              "value": 0
+            },
+            {
+              "name": "任务自动派发系统",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "环境档案管理系统",
+              "value": 3,
+              "children": [
+            {
+              "name": "重点企业档案维护",
+              "value": 0
+            },
+            {
+              "name": "网格化责任单位维护",
+              "value": 0
+            },
+            {
+              "name": "重点监测属性维护",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "报表管理",
+              "value": 0
+            },
+            {
+              "name": "综合应用APP",
+              "value": 2042,
+              "children": [
+            {
+              "name": "执法员任务应用",
+              "value": 0
+            },
+            {
+              "name": "巡察员任务应用",
+              "value": 0
+            },
+            {
+              "name": "督查员任务应用",
+              "value": 0
+            },
+            {
+              "name": "数据存储系统",
+              "value": 0
+            },
+            {
+              "name": "视频监控查看",
+              "value": 0
+            },
+            {
+              "name": "GIS系统",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "任务管理系统",
+              "value": 4,
+              "children": [
+            {
+              "name": "任务管理",
+              "value": 0
+            },
+            {
+              "name": "预警任务池管理",
+              "value": 0
+            },
+            {
+              "name": "预警任务处理",
+              "value": 0
+            },
+            {
+              "name": "预警任务分析",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "水务管理子模块",
+              "value": 6,
+              "children": [
+            {
+              "name": "数据采集管理",
+              "value": 0
+            },
+            {
+              "name": "数据展示",
+              "value": 0
+            },
+            {
+              "name": "移动APP应用",
+              "value": 0
+            },
+            {
+              "name": "数据存储系统",
+              "value": 0
+            },
+            {
+              "name": "视频监控查看",
+              "value": 0
+            },
+            {
+              "name": "GIS系统",
+              "value": 0
+            }
+          ]
+            }
+          ]
+        },
+        {
+          "name": "园区智慧亮化",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorInterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        },
+        {
+          "name": "园区能效管理",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorInterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        },
+        {
+          "name": "园区智慧水务",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorInterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        },
+        {
+          "name": "园区智慧农林",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorInterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        },
+        {
+          "name": "园区智慧政务",
+          "value": "3",
+          "children": [
+            {
+              "name": "党建工作",
+              "value": 0
+            },
+            {
+              "name": "法律服务",
+              "value": 0
+            },
+            {
+              "name": "合同服务",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "园区智慧消防",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorInterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        },
+        {
+          "name": "园区智慧缆廊",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorInterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        },
+        {
+          "name": "园区应急指挥",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorInterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        },
+        {
+          "name": "园区运营管理平台",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorInterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        },
+        {
+          "name": "园区展厅",
+          "children": [
+            {
+              "name": "ArrayInterpolator",
+              "value": 1983
+            },
+            {
+              "name": "ColorInterpolator",
+              "value": 2047
+            },
+            {
+              "name": "DateInterpolator",
+              "value": 1375
+            },
+            {
+              "name": "Interpolator",
+              "value": 8746
+            },
+            {
+              "name": "MatrixInterpolator",
+              "value": 2202
+            },
+            {
+              "name": "NumberInterpolator",
+              "value": 1382
+            },
+            {
+              "name": "ObjectInterpolator",
+              "value": 1629
+            },
+            {
+              "name": "PointInterpolator",
+              "value": 1675
+            },
+            {
+              "name": "RectangleInterpolator",
+              "value": 2042
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "企业服务",
+      "value": "4",
+      "children": [
+        {
+          "name": "企业一站式服务",
+          "value": 4,
+          "children": [
+            {
+              "name": "税务服务",
+              "value": 0
+            },
+            {
+              "name": "工商服务",
+              "value": 0
+            },
+            {
+              "name": "法律服务",
+              "value": 0
+            },
+            {
+              "name": "其它服务",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "园区云服务平台",
+          "children": [
+            {
+          "name": "园区企业云办公平台",
+          "value": 13,
+          "children": [
+            {
+              "name": "人事管理",
+              "value": 0
+            },
+            {
+              "name": "企业邮箱",
+              "value": 0
+            },
+            {
+              "name": "客户服务",
+              "value": 0
+            },
+            {
+              "name": "文档管理",
+              "value": 0
+            },
+            {
+              "name": "财务管理",
+              "value": 0
+            },
+            {
+              "name": "协同办公",
+              "value": 0
+            },
+            {
+              "name": "行业系统",
+              "value": 0
+            },
+            {
+              "name": "财务管理",
+              "value": 0
+            },
+            {
+              "name": "企业通信",
+              "value": 0
+            },
+            {
+              "name": "销售管理",
+              "value": 0
+            }
+          ]
+        },
+            {
+              "name": "计算资源服务平台",
+              "value": 3,
+              "children": [
+            {
+              "name": "云服务器",
+              "value": 0
+            },
+            {
+              "name": "物理服务器",
+              "value": 0
+            },
+            {
+              "name": "GPU服务器",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "桌面云服务平台",
+              "value": 5,
+              "children": [
+            {
+              "name": "文字应用",
+              "value": 0
+            },
+            {
+              "name": "图像应用",
+              "value": 0
+            },
+            {
+              "name": "三维应用",
+              "value": 0
+            },
+            {
+              "name": "大型浮点应用",
+              "value": 0
+            },
+            {
+              "name": "特殊环境应用",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "存储资源服务平台",
+              "value": 3,
+              "children": [
+            {
+              "name": "云磁盘(冷存储)",
+              "value": 721
+            },
+            {
+              "name": "云存储",
+              "value": 4294
+            },
+            {
+              "name": "混合存储",
+              "value": 9800
+            }
+          ]
+            },
+            {
+              "name": "大数据分析服务平台",
+              "value": 3,
+              "children": [
+            {
+              "name": "机器学习应用分析",
+              "value": 0
+            },
+            {
+              "name": "深度学习应用分析",
+              "value": 0
+            },
+            {
+              "name": "数据仓库应用分析",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "数字营销云平台",
+              "value": 5,
+              "children": [
+            {
+              "name": "广告投放云服务",
+              "value": 0
+            },
+            {
+              "name": "园区企业图谱",
+              "value": 0
+            },
+            {
+              "name": "客群洞察服务",
+              "value": 0
+            },
+            {
+              "name": "商品优选",
+              "value": 0
+            },
+            {
+              "name": "智能推荐",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "物联网服务平台",
+              "value": 8,
+              "children": [
+            {
+              "name": "物接入IOT",
+              "value": 0
+            },
+            {
+              "name": "物解析IOT",
+              "value": 0
+            },
+            {
+              "name": "规则引擎",
+              "value": 0
+            },
+            {
+              "name": "时序数据库",
+              "value": 0
+            },
+            {
+              "name": "物可视",
+              "value": 0
+            },
+            {
+              "name": "时序分析",
+              "value": 0
+            },
+            {
+              "name": "边缘计算",
+              "value": 0
+            },
+            {
+              "name": "物联网安全服务",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "多媒体云服务平台",
+              "value": 5,
+              "children": [
+            {
+              "name": "云会议系统",
+              "value": 0
+            },
+            {
+              "name": "云监控系统",
+              "value": 0
+            }
+          ]
+            },
+            {
+              "name": "人工智能服务平台",
+              "value": 8,
+              "children": [
+            {
+              "name": "文字识别",
+              "value": 0
+            },
+            {
+              "name": "人脸识别",
+              "value": 0
+            },
+            {
+              "name": "图像识别",
+              "value": 0
+            },
+            {
+              "name": "人体分析",
+              "value": 0
+            },
+            {
+              "name": "语言处理",
+              "value": 0
+            },
+            {
+              "name": "语音识别",
+              "value": 0
+            }
+          ]
+            }
+          ]
+        },
+        {
+          "name": "园区企业综合信息服务",
+          "value": 5,
+          "children": [
+            {
+              "name": "知网查询服务",
+              "value": 0
+            },
+            {
+              "name": "专利查询服务",
+              "value": 0
+            },
+            {
+              "name": "猎头服务",
+              "value": 0
+            },
+            {
+              "name": "法律服务",
+              "value": 0
+            },
+            {
+              "name": "合同服务",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "园区商业",
+      "value": "3",
+      "children": [
+        {
+          "name": "实体商务",
+          "children": [
+            {
+              "name": "Converters",
+              "value": 721
+            },
+            {
+              "name": "DelimitedTextConverter",
+              "value": 4294
+            },
+            {
+              "name": "GraphMLConverter",
+              "value": 9800
+            },
+            {
+              "name": "IDataConverter",
+              "value": 1314
+            },
+            {
+              "name": "JSONConverter",
+              "value": 2220
+            }
+          ]
+        },
+        {
+          "name": "电子商务",
+          "children": [
+            {
+              "name": "Converters",
+              "value": 721
+            },
+            {
+              "name": "DelimitedTextConverter",
+              "value": 4294
+            },
+            {
+              "name": "GraphMLConverter",
+              "value": 9800
+            },
+            {
+              "name": "IDataConverter",
+              "value": 1314
+            },
+            {
+              "name": "JSONConverter",
+              "value": 2220
+            }
+          ]
+        },
+        {
+          "name": "高铁商务",
+          "children": [
+            {
+              "name": "Converters",
+              "value": 721
+            },
+            {
+              "name": "DelimitedTextConverter",
+              "value": 4294
+            },
+            {
+              "name": "GraphMLConverter",
+              "value": 9800
+            },
+            {
+              "name": "IDataConverter",
+              "value": 1314
+            },
+            {
+              "name": "JSONConverter",
+              "value": 2220
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "智慧生活",
+      "value": "6",
+      "children": [
+        {
+          "name": "生活服务",
+          "value": "6",
+          "children": [
+            {
+              "name": "生活缴费",
+              "value": 8,
+              "children": [
+                {
+                  "name": "电费",
+                  "value": 0
+                },
+                {
+                  "name": "水费",
+                  "value": 0
+                },
+                {
+                  "name": "燃气费",
+                  "value": 0
+                },
+                {
+                  "name": "有线电视",
+                  "value": 0
+                },
+                {
+                  "name": "固话",
+                  "value": 0
+                },
+                {
+                  "name": "宽带",
+                  "value": 0
+                },
+                {
+                  "name": "物业费",
+                  "value": 0
+                },
+                {
+                  "name": "采暖费",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "name": "园区服务",
+              "value": 3,
+              "children": [
+                {
+                  "name": "社保",
+                  "value": 0
+                },
+                {
+                  "name": "公积金",
+                  "value": 0
+                },
+                {
+                  "name": "找工作",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "name": "快递服务",
+              "value": 3,
+              "children": [
+                {
+                  "name": "邮寄服务",
+                  "value": 0
+                },
+                {
+                  "name": "同城直送",
+                  "value": 0
+                },
+                {
+                  "name": "快件跟踪",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "name": "医疗健康",
+              "value": 6,
+              "children": [
+                {
+                  "name": "在线挂号",
+                  "value": 0
+                },
+                {
+                  "name": "专家咨询",
+                  "value": 0
+                },
+                {
+                  "name": "体检服务",
+                  "value": 0
+                },
+                {
+                  "name": "疫苗服务",
+                  "value": 0
+                },
+                {
+                  "name": "母婴服务",
+                  "value": 0
+                },
+                {
+                  "name": "老人服务",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "name": "车主服务",
+              "value": 10,
+              "children": [
+                {
+                  "name": "加油充值",
+                  "value": 0
+                },
+                {
+                  "name": "停车缴费",
+                  "value": 0
+                },
+                {
+                  "name": "违章查询",
+                  "value": 0
+                },
+                {
+                  "name": "验车服务",
+                  "value": 0
+                },
+                {
+                  "name": "保养服务",
+                  "value": 0
+                },
+                {
+                  "name": "车辆定位",
+                  "value": 0
+                },
+                {
+                  "name": "洗车服务",
+                  "value": 0
+                },
+                {
+                  "name": "修车服务",
+                  "value": 0
+                },
+                {
+                  "name": "充电桩",
+                  "value": 0
+                },
+                {
+                  "name": "二手车交易",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "name": "体育服务",
+              "value": 4,
+              "children": [
+                {
+                  "name": "场地预约",
+                  "value": 0
+                },
+                {
+                  "name": "赛事通告",
+                  "value": 0
+                },
+                {
+                  "name": "会员卡办理",
+                  "value": 0
+                },
+                {
+                  "name": "体育用品租售",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "物业管理",
+          "children": [
+            {
+              "name": "Converters",
+              "value": 721
+            },
+            {
+              "name": "DelimitedTextConverter",
+              "value": 4294
+            },
+            {
+              "name": "GraphMLConverter",
+              "value": 9800
+            },
+            {
+              "name": "IDataConverter",
+              "value": 1314
+            },
+            {
+              "name": "JSONConverter",
+              "value": 2220
+            }
+          ]
+        },
+        {
+          "name": "智慧社管",
+          "children": [
+            {
+              "name": "Converters",
+              "value": 721
+            },
+            {
+              "name": "DelimitedTextConverter",
+              "value": 4294
+            },
+            {
+              "name": "GraphMLConverter",
+              "value": 9800
+            },
+            {
+              "name": "IDataConverter",
+              "value": 1314
+            },
+            {
+              "name": "JSONConverter",
+              "value": 2220
+            }
+          ]
+        },
+        {
+          "name": "智慧康养",
+          "children": [
+            {
+              "name": "Converters",
+              "value": 721
+            },
+            {
+              "name": "DelimitedTextConverter",
+              "value": 4294
+            },
+            {
+              "name": "GraphMLConverter",
+              "value": 9800
+            },
+            {
+              "name": "IDataConverter",
+              "value": 1314
+            },
+            {
+              "name": "JSONConverter",
+              "value": 2220
+            }
+          ]
+        },
+        {
+          "name": "智慧出行",
+          "children": [
+            {
+              "name": "Converters",
+              "value": 721
+            },
+            {
+              "name": "DelimitedTextConverter",
+              "value": 4294
+            },
+            {
+              "name": "GraphMLConverter",
+              "value": 9800
+            },
+            {
+              "name": "IDataConverter",
+              "value": 1314
+            },
+            {
+              "name": "JSONConverter",
+              "value": 2220
+            }
+          ]
+        },
+        {
+          "name": "附属系统",
+          "children": [
+            {
+              "name": "Converters",
+              "value": 721
+            },
+            {
+              "name": "DelimitedTextConverter",
+              "value": 4294
+            },
+            {
+              "name": "GraphMLConverter",
+              "value": 9800
+            },
+            {
+              "name": "IDataConverter",
+              "value": 1314
+            },
+            {
+              "name": "JSONConverter",
+              "value": 2220
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "智慧物流",
+      "children": [
+        {
+          "name": "物流过程分析及优化",
+          "value": "0"
+        },
+        {
+          "name": "业务软件",
+          "value": 3,
+          "children": [
+            {
+              "name": "仓储管理系统",
+              "value": 12,
+              "children": [
+                {
+                  "name": "基础信息管理",
+                  "value": 10,
+                  "children": [
+                    {
+                      "name": "物料管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "BOM管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "库区管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "物料类别管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "货架管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "库位管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "容器管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "车辆管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "客户管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "供应商管理",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "物料拉动管理",
+                  "value": 5,
+                  "children": [
+                    {
+                      "name": "配送任务执行",
+                      "value": 0
+                    },
+                    {
+                      "name": "物料追溯",
+                      "value": 0
+                    },
+                    {
+                      "name": "台套化拉动",
+                      "value": 0
+                    },
+                    {
+                      "name": "看板拉动",
+                      "value": 0
+                    },
+                    {
+                      "name": "紧急拉动",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "质检管理",
+                  "value": 3,
+                  "children": [
+                    {
+                      "name": "收货质检管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "库存巡检管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "残次品报废管理",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "入库管理",
+                  "value": 3,
+                  "children": [
+                    {
+                      "name": "入库单管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "入库单审核",
+                      "value": 0
+                    },
+                    {
+                      "name": "上架管理",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "出库管理",
+                  "value": 4,
+                  "children": [
+                    {
+                      "name": "出库单管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "出库单审核",
+                      "value": 0
+                    },
+                    {
+                      "name": "下架单管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "拣选单管理",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "生产管理",
+                  "value": 5,
+                  "children": [
+                    {
+                      "name": "产线管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "工位管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "生产管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "生产排序",
+                      "value": 0
+                    },
+                    {
+                      "name": "生产监控",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "库存管理",
+                  "value": 4,
+                  "children": [
+                    {
+                      "name": "库存查询",
+                      "value": 0
+                    },
+                    {
+                      "name": "盘点任务管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "移库任务管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "库存变动查询",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "流程设计",
+                  "value": 2,
+                  "children": [
+                    {
+                      "name": "流程管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "流程设计",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "报表管理",
+                  "value": 4,
+                  "children": [
+                    {
+                      "name": "出/入库汇总表",
+                      "value": 0
+                    },
+                    {
+                      "name": "期末期初报表",
+                      "value": 0
+                    },
+                    {
+                      "name": "库存统计",
+                      "value": 0
+                    },
+                    {
+                      "name": "出/入库明细查询",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "库存预警",
+                  "value": 4,
+                  "children": [
+                    {
+                      "name": "库位饱和度预警",
+                      "value": 0
+                    },
+                    {
+                      "name": "库位超限",
+                      "value": 0
+                    },
+                    {
+                      "name": "库龄超限",
+                      "value": 0
+                    },
+                    {
+                      "name": "过期库存",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "KPI图表",
+                  "value": 6,
+                  "children": [
+                    {
+                      "name": "计件统计",
+                      "value": 0
+                    },
+                    {
+                      "name": "出库数量",
+                      "value": 0
+                    },
+                    {
+                      "name": "仓库吞吐量",
+                      "value": 0
+                    },
+                    {
+                      "name": "月均库存量",
+                      "value": 0
+                    },
+                    {
+                      "name": "收发正确率",
+                      "value": 0
+                    },
+                    {
+                      "name": "货物完好率",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "系统管理",
+                  "value": 4,
+                  "children": [
+                    {
+                      "name": "用户管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "角色管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "部门管理",
+                      "value": 0
+                    },
+                    {
+                      "name": "操作日志",
+                      "value": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "物流执行系统",
+              "value": 12,
+              "children": [
+                {
+                  "name": "看板拉动",
+                  "value": 0
+                },
+                {
+                  "name": "排序拉动",
+                  "value": 0
+                },
+                {
+                  "name": "台套拉动",
+                  "value": 0
+                },
+                {
+                  "name": "亮灯拣货",
+                  "value": 0
+                },
+                {
+                  "name": "安灯补货",
+                  "value": 0
+                },
+                {
+                  "name": "紧急拉动",
+                  "value": 0
+                },
+                {
+                  "name": "断点管理",
+                  "value": 0
+                },
+                {
+                  "name": "流程变更",
+                  "value": 0
+                },
+                {
+                  "name": "计划补货",
+                  "value": 0
+                },
+                {
+                  "name": "流程设计",
+                  "value": 0
+                },
+                {
+                  "name": "物料追溯",
+                  "value": 0
+                },
+                {
+                  "name": "生产管理",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "name": "智能分析系统",
+              "value": 12,
+              "children": [
+                {
+                  "name": "库存报表",
+                  "value": 0
+                },
+                {
+                  "name": "拉动报表",
+                  "value": 0
+                },
+                {
+                  "name": "发动报表",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "工业物联网平台",
+          "value": 6,
+          "children": [
+            {
+              "name": "设备监测及管理",
+              "value": 0
+            },
+            {
+              "name": "用户及数据管理",
+              "value": 0
+            },
+            {
+              "name": "物联网集中管理",
+              "value": 0
+            },
+            {
+              "name": "可视化故障诊断",
+              "value": 0
+            },
+            {
+              "name": "快速集成调试工具",
+              "value": 0
+            },
+            {
+              "name": "智能故障预测维护",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "工业物联网硬件",
+          "value": 3,
+          "children": [
+            {
+              "name": "无线通信传输",
+              "value": 0
+            },
+            {
+              "name": "位置感知",
+              "value": 0
+            },
+            {
+              "name": "自动识别",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

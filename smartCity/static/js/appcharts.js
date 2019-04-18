@@ -261,7 +261,9 @@ function trend_1(request) {
             trigger: 'axis'
         },
         legend: {
-            data: _data_[0].obj
+            data: _data_[0].obj,
+            x: 'left',
+            y: 'bottom'
         },
         toolbox: {
             show: true,
@@ -362,8 +364,8 @@ function trend_2(request) {
     const option = {
         title: {
             text: _title_,
-            subtext: _subtitle_,
-            x: 'center',
+            //subtext: _subtitle_,
+            x: 'left',
             align: 'right'
         },
         grid: {
@@ -397,7 +399,8 @@ function trend_2(request) {
         },
         legend: {
             data: _data_[0].obj,
-            x: 'left'
+            x: 'center',
+            top: 30
         },
         dataZoom: [{
                 show: true,
@@ -482,7 +485,7 @@ function trend_3(request) {
             }
         },
         title: {
-            left: 'center',
+            left: 'left',
             text: _title_,
             subtext: _subtitle_,
         },
@@ -635,8 +638,8 @@ function trend_5(request) {
     const option = {
         title: {
             text: _title_,
-            subtext: _subtitle_,
-            x: 'center'
+            // subtext: _subtitle_,
+            x: 'left'
         },
         tooltip: {
             trigger: 'axis',
@@ -646,7 +649,8 @@ function trend_5(request) {
         },
         legend: {
             data: _data_[0].obj,
-            x: 'left'
+            x: 'center',
+            top: 30
         },
         toolbox: {
             feature: {
@@ -777,7 +781,7 @@ function trend_6(request) {
             }
         },
         toolbox: {
-            left: 'center',
+            //left: 'center',
             feature: {
                 dataZoom: {
                     yAxisIndex: 'none'
@@ -794,6 +798,7 @@ function trend_6(request) {
         visualMap: {
             top: 10,
             right: 10,
+            show: false,
             pieces: [{
                 gt: _data_[0].alarm1,
                 lte: _data_[0].alarm2,
