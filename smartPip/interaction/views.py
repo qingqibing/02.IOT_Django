@@ -9,6 +9,8 @@ import datetime
 
 # Create your views here.
 
+def HelloWorld(request):
+    return render(request, 'HelloWorld.html')
 
 # 主页
 def index(request):
@@ -37,8 +39,8 @@ def environment(request):
         temperature = 24.6  # 接 温度 驱动
         humidity = 20.0  # 接 湿度 驱动
         light = 20.0  # 接 光照 驱动
-        noise = 33.0  # 接 噪声 驱动
-        gas = 0.0  # 接 有害气体 驱动
+        noise = 13.0  # 接 噪声 驱动
+        gas = 10.0  # 接 有害气体 驱动
         skylight_position = 90.0
         sunshade_position = 30.0
 

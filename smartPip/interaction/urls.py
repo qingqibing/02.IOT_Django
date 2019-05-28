@@ -26,4 +26,5 @@ urlpatterns = [
         views.sunshade_plan_control,
         name='sunshade_plan_control'),
     url(r'^sunshade_plan/$', views.sunshade_plan, name='sunshade_plan'),
+    url(r'^HelloWorld/$', views.HelloWorld, name='HelloWorld'),
 ]
